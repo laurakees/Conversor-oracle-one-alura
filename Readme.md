@@ -8,7 +8,6 @@ Este proyecto es una aplicación de consola desarrollada en Java para realizar c
 - [Instalación](#instalación)
 - [Uso](#uso)
 - [Estructura del Proyecto](#estructura-del-proyecto)
-- [Pruebas](#pruebas)
 - [Contribución](#contribución)
 
 ## Tecnologías Utilizadas
@@ -21,7 +20,6 @@ Este proyecto es una aplicación de consola desarrollada en Java para realizar c
 - Consultar tasas de conversión de una moneda base a múltiples monedas objetivo.
 - Listar códigos de moneda disponibles junto con sus descripciones.
 - Guardar datos de conversión en un archivo JSON con formato legible.
-- Modularidad mejorada mediante métodos específicos para cada funcionalidad.
 - Manejo de errores para códigos de moneda inválidos o problemas de conexión.
 
 ## Instalación
@@ -38,9 +36,7 @@ Este proyecto es una aplicación de consola desarrollada en Java para realizar c
 
 1. Ejecuta la clase `Principal` desde tu IDE o línea de comandos.
 2. Sigue las instrucciones en el menú interactivo:
-    - Ingresa el código de la moneda base (por ejemplo, `USD`).
-    - Selecciona las opciones para convertir monedas, listar códigos base disponibles o guardar datos en un archivo JSON.
-
+    
 ### Ejemplo de Conversión:
 ```
 ===== Conversor de Monedas =====
@@ -84,20 +80,6 @@ USD - Dólar estadounidense - Estados Unidos
 - `Principal`: Clase principal que implementa el menú interactivo.
     - **Modularidad**: Métodos específicos para realizar la conversión, guardar datos y mostrar códigos base.
 
-## Pruebas
-
-Se han realizado pruebas para verificar:
-- Conversión entre diferentes monedas.
-- Manejo de errores al ingresar códigos de moneda no válidos.
-- Guardado exitoso de archivos JSON.
-- Visualización correcta de los códigos de moneda disponibles.
-- Comportamiento del programa con datos incorrectos o problemas de red.
-
-### Ejemplo de Pruebas:
-- Moneda base válida (`USD`) con destino válido (`EUR`).
-- Moneda base válida (`USD`) con destino no válido (`XXX`).
-- Cantidad no numérica: el programa lanza una excepción adecuada.
-
 ## Contribución
 
 ¡Las contribuciones son bienvenidas! Si encuentras errores o tienes ideas para mejorar el proyecto, abre un issue o envía un pull request.
@@ -110,5 +92,5 @@ Se han realizado pruebas para verificar:
 ---
 
 ### Autor
-Desarrollado como parte del programa ONE de Alura.
+Laura Kees. Trabajo desarrollado como parte del programa ONE de Alura.
 
